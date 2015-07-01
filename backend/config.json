@@ -1,0 +1,10 @@
+{
+  "user": {
+    "id": "foo-bar",
+    "name": "Foo Bar",
+    "email": "foo@bar.com"
+  },
+  "server": {
+    "port": "#{${PORT} || 3000}"
+  }
+}
